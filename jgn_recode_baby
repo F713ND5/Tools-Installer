@@ -1,0 +1,22 @@
+from requests import ConnectionError
+from time import sleep
+import requests, sys, os, re, random
+
+M = '\033[1;31m'
+H = '\033[1;32m'
+K = '\033[1;33m'
+U = '\033[1;34m'
+P = '\033[1;35m'
+C = '\033[1;36m'
+W = '\033[1;37m'
+A = '\033[90m'
+
+def Spam():
+        os.system('clear')
+        print(C+'Subscribe YT Gua Dlu Bang !'+M+' :V')
+        sleep(1.5)
+        os.system('xdg-open https://www.youtube.com/channel/UCm6GW7GFlQCl7T988qcfSXA')
+        os.system('clear')
+        sleep(1.3)
+if __name__ == '__main__':
+        Spam()
