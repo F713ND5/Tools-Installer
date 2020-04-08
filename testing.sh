@@ -1,3 +1,4 @@
+python2 jgn_recode_baby
 ulang="y"
 while [ $ulang = "y" ]
 do
